@@ -1,0 +1,101 @@
+/* TicTacToe.css */
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(175, 175, 175, 0.573);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f4f4f99f;
+    max-width: 600px;
+    margin: auto;
+    margin-top:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.status,
+.timer {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.gameName{
+    font-size: 18px;
+    background-color: rgb(32, 111, 248);
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    font:bolder;
+    /* color: #333; */
+
+}
+.level-buttons {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.level-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.level-buttons button:hover {
+    background-color: #ddd;
+}
+
+.board {
+    display: grid;
+    gap: 5px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square:hover {
+    background-color: #ddd;
+}
+
+.reset-button {
+    margin-top: 6px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #0056b3;
+}
